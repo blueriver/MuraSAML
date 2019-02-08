@@ -1,6 +1,6 @@
 # README #
 
-This module is intended for Mura 7+.
+This module is intended as a proof of concept Mura 7+ SAML integration.
 
 You configure the SAML endpoints and siteid here:
 
