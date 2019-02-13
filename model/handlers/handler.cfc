@@ -48,8 +48,8 @@
 					//set siteArray
 					if(session.mura.isLoggedIn){
 						session.siteArray=[];
-						settingsManager = $.getBean("settingsManager");
-						for( site in settingsManager.getSites()) {
+						var settingsManager = $.getBean("settingsManager");
+						for( var site in settingsManager.getSites()) {
 							if(application.permUtility.getModulePerm("00000000000000000000000000000000000",site)){
 								arrayAppend(session.siteArray,site);
 							}
